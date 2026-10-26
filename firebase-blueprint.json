@@ -1,0 +1,170 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Authenticated user profile and For Semester psychiatric workspace settings.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the user."
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Display name of the patient/user."
+        },
+        "databaseAlias": {
+          "type": "string",
+          "description": "Active Firebase database workspace label (For Semester)."
+        },
+        "semesterFocus": {
+          "type": "string",
+          "description": "Current semester or mental wellness focus area."
+        },
+        "wellnessScore": {
+          "type": "integer",
+          "description": "Overall wellness index from 0 to 100."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the profile was created via FieldValue.serverTimestamp()."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the profile was updated via FieldValue.serverTimestamp()."
+        }
+      },
+      "required": ["userId", "displayName", "databaseAlias", "createdAt"]
+    },
+    "ConsultationMessage": {
+      "title": "ConsultationMessage",
+      "description": "Individual message in an AI Psychiatrist therapy consultation session.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Owner Firebase Auth UID."
+        },
+        "role": {
+          "type": "string",
+          "enum": ["user", "psychiatrist"],
+          "description": "Sender role in the psychiatric session."
+        },
+        "therapyMode": {
+          "type": "string",
+          "enum": ["CBT", "Crisis", "SemesterBurnout", "SleepAnxiety"],
+          "description": "Selected psychiatric counseling modality."
+        },
+        "text": {
+          "type": "string",
+          "description": "Message content."
+        },
+        "moodTag": {
+          "type": "string",
+          "description": "Optional emotional state tag detected or attached."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp via FieldValue.serverTimestamp()."
+        }
+      },
+      "required": ["userId", "role", "therapyMode", "text", "createdAt"]
+    },
+    "MoodLog": {
+      "title": "MoodLog",
+      "description": "Daily psychiatric mood, sleep, stress, and cognitive journal entry.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Owner Firebase Auth UID."
+        },
+        "moodScore": {
+          "type": "integer",
+          "description": "Mood rating from 1 (lowest) to 10 (highest)."
+        },
+        "emotionLabel": {
+          "type": "string",
+          "description": "Primary emotion label."
+        },
+        "sleepHours": {
+          "type": "integer",
+          "description": "Hours of sleep in the last 24 hours (0 to 24)."
+        },
+        "stressLevel": {
+          "type": "integer",
+          "description": "Perceived stress level from 1 to 10."
+        },
+        "journalNote": {
+          "type": "string",
+          "description": "User's cognitive reflection or journal note."
+        },
+        "aiInsight": {
+          "type": "string",
+          "description": "Optional AI Psychiatrist clinical reflection on the mood log."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp via FieldValue.serverTimestamp()."
+        }
+      },
+      "required": ["userId", "moodScore", "emotionLabel", "sleepHours", "stressLevel", "journalNote", "createdAt"]
+    },
+    "PsychAssessment": {
+      "title": "PsychAssessment",
+      "description": "Completed psychiatric screening assessment (PHQ-9, GAD-7, or Semester Burnout).",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Owner Firebase Auth UID."
+        },
+        "assessmentType": {
+          "type": "string",
+          "enum": ["PHQ-9", "GAD-7", "Semester-Burnout"],
+          "description": "Type of clinical assessment completed."
+        },
+        "totalScore": {
+          "type": "integer",
+          "description": "Calculated assessment score (0 to 100)."
+        },
+        "severityLabel": {
+          "type": "string",
+          "description": "Clinical severity interpretation."
+        },
+        "recommendation": {
+          "type": "string",
+          "description": "Personalized psychiatric care plan and coping recommendation."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp via FieldValue.serverTimestamp()."
+        }
+      },
+      "required": ["userId", "assessmentType", "totalScore", "severityLabel", "recommendation", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Per-user psychiatric profile and For Semester workspace configuration."
+    },
+    "/users/{userId}/consultations/{messageId}": {
+      "schema": "ConsultationMessage",
+      "description": "Per-user AI Psychiatrist consultation messages."
+    },
+    "/users/{userId}/mood_logs/{logId}": {
+      "schema": "MoodLog",
+      "description": "Per-user daily mood, sleep, stress, and cognitive journal logs."
+    },
+    "/users/{userId}/assessments/{assessmentId}": {
+      "schema": "PsychAssessment",
+      "description": "Per-user clinical mental health screening results."
+    }
+  }
+}

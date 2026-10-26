@@ -1,0 +1,664 @@
+01:46:33.807
+System
+Build
+ Render Start 
+01:46:33.807
+System
+Log
+ Build successful and cleared previous logs 
+01:46:53.278
+Android
+Debug
+ 10-25 19:46:32.628 6994 D/ProfileInstaller: Installing profile for com.aistudio.thanatox.psychm 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:48.578 6994 D/EGL_emulation: app_time_stats: avg=6833.08ms min=25.06ms max=20184.58ms count=3 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:51.948 6994 D/EGL_emulation: app_time_stats: avg=1118.53ms min=212.41ms max=2735.59ms count=3 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:52.976 6994 D/EGL_emulation: app_time_stats: avg=22.00ms min=10.78ms max=92.06ms count=28 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:53.991 6994 D/EGL_emulation: app_time_stats: avg=20.26ms min=9.90ms max=79.88ms count=30 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:54.999 6994 D/EGL_emulation: app_time_stats: avg=19.33ms min=5.63ms max=59.07ms count=33 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:56.013 6994 D/EGL_emulation: app_time_stats: avg=20.78ms min=2.14ms max=45.44ms count=28 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:57.049 6994 D/EGL_emulation: app_time_stats: avg=27.53ms min=1.45ms max=205.01ms count=26 
+01:47:13.211
+Android
+Debug
+ 10-25 19:46:58.996 6994 D/EGL_emulation: app_time_stats: avg=69.34ms min=8.76ms max=1074.97ms count=24 
+01:47:13.211
+Android
+Log
+ 10-25 19:46:59.168 6994 I/thanatox.psychm: Compiler allocated 9421KB to compile void com.example.ui.screens.ConsultationScreenKt.ConsultationScreen(com.example.ui.i18n.AppLanguage, com.example.data.model.UiState, com.example.data.model.TherapyMode, boolean, java.lang.String, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function3, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, java.lang.String, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, androidx.compose.runtime.Composer, int, int, int) 
+01:47:13.211
+Android
+Warning
+ 10-25 19:46:59.173 6994 W/WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+Set 'android:enableOnBackInvokedCallback="true"' in the application manifest. 
+01:47:13.211
+Android
+Debug
+ 10-25 19:47:02.147 6994 D/EGL_emulation: app_time_stats: avg=304.19ms min=8.35ms max=2787.95ms count=10 
+01:47:13.211
+Android
+Debug
+ 10-25 19:47:04.479 6994 D/EGL_emulation: app_time_stats: avg=162.89ms min=1.18ms max=1862.98ms count=13 
+01:47:13.211
+Android
+Warning
+ 10-25 19:47:04.665 6994 W/WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+Set 'android:enableOnBackInvokedCallback="true"' in the application manifest. 
+01:47:13.211
+Android
+Debug
+ 10-25 19:47:05.480 6994 D/EGL_emulation: app_time_stats: avg=18.93ms min=2.90ms max=58.47ms count=28 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:09.513 6994 D/EGL_emulation: app_time_stats: avg=4024.68ms min=4024.68ms max=4024.68ms count=1 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:14.236 6994 D/EGL_emulation: app_time_stats: avg=112.23ms min=1.69ms max=3741.17ms count=38 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:17.459 6994 D/EGL_emulation: app_time_stats: avg=84.95ms min=1.94ms max=2279.36ms count=33 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:18.731 6994 D/EGL_emulation: app_time_stats: avg=22.74ms min=1.58ms max=316.91ms count=34 
+01:47:33.214
+Android
+Log
+ 10-25 19:47:18.922 6994 I/thanatox.psychm: Compiler allocated 4460KB to compile kotlin.Unit com.example.ui.screens.SettingsScreenKt.SettingsScreen$lambda$50$lambda$49$lambda$42$lambda$41(boolean, com.example.ui.i18n.AppLanguage, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, com.example.data.remote.AiProvider, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, androidx.compose.runtime.MutableState, androidx.compose.runtime.MutableState, java.lang.String, java.lang.String, com.example.ui.i18n.LocalizedStrings, androidx.compose.foundation.layout.ColumnScope, androidx.compose.runtime.Composer, int) 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:19.756 6994 D/EGL_emulation: app_time_stats: avg=15.80ms min=3.56ms max=38.86ms count=30 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:24.447 6994 D/EGL_emulation: app_time_stats: avg=4690.47ms min=4690.47ms max=4690.47ms count=1 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:25.459 6994 D/EGL_emulation: app_time_stats: avg=19.99ms min=3.55ms max=152.42ms count=29 
+01:47:33.214
+Android
+Debug
+ 10-25 19:47:27.487 6994 D/EGL_emulation: app_time_stats: avg=649.52ms min=2.74ms max=1931.16ms count=3 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:28.985 6994 D/EGL_emulation: app_time_stats: avg=30.20ms min=1.94ms max=628.97ms count=33 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:29.993 6994 D/EGL_emulation: app_time_stats: avg=15.25ms min=1.73ms max=130.03ms count=36 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:31.028 6994 D/EGL_emulation: app_time_stats: avg=33.35ms min=9.72ms max=344.44ms count=21 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:32.030 6994 D/EGL_emulation: app_time_stats: avg=34.48ms min=5.78ms max=381.23ms count=19 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:33.647 6994 D/EGL_emulation: app_time_stats: avg=44.77ms min=1.34ms max=925.90ms count=28 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:36.519 6994 D/EGL_emulation: app_time_stats: avg=60.85ms min=1.36ms max=1915.40ms count=39 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:37.539 6994 D/EGL_emulation: app_time_stats: avg=17.14ms min=9.49ms max=32.40ms count=30 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:39.039 6994 D/EGL_emulation: app_time_stats: avg=63.99ms min=1.87ms max=867.44ms count=19 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:40.102 6994 D/EGL_emulation: app_time_stats: avg=32.04ms min=10.05ms max=161.20ms count=22 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:43.628 6994 D/InsetsController: show(ime(), fromIme=false) 
+01:47:53.246
+Android
+Log
+ 10-25 19:47:43.630 6994 I/ImeTracker: com.aistudio.thanatox.psychm:876a4d7e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT_BY_INSETS_API fromUser false 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:43.631 6994 D/InputMethodManager: showSoftInput() view=androidx.compose.ui.platform.AndroidComposeView{b836cff VFED..... .F....ID 0,0-1080,2400 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT_BY_INSETS_API 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:43.644 6994 D/EGL_emulation: app_time_stats: avg=276.23ms min=11.95ms max=3097.86ms count=12 
+01:47:53.246
+Android
+Log
+ 10-25 19:47:43.652 6994 I/ImeTracker: com.aistudio.thanatox.psychm:c2cd50fe: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:43.653 6994 D/InputMethodManager: showSoftInput() view=androidx.compose.ui.platform.AndroidComposeView{b836cff VFED..... .F...... 0,0-1080,2400 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:44.120 6994 D/InsetsController: show(ime(), fromIme=true) 
+01:47:53.246
+Android
+Warning
+ 10-25 19:47:44.130 6994 W/InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.aistudio.thanatox.psychm 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:44.224 6994 D/InsetsController: show(ime(), fromIme=true) 
+01:47:53.246
+Android
+Log
+ 10-25 19:47:44.225 6994 I/ImeTracker: com.aistudio.thanatox.psychm:c2cd50fe: onCancelled at PHASE_CLIENT_APPLY_ANIMATION 
+01:47:53.246
+Android
+Log
+ 10-25 19:47:44.460 6994 I/ImeTracker: com.aistudio.thanatox.psychm:876a4d7e: onShown 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:44.752 6994 D/EGL_emulation: app_time_stats: avg=50.62ms min=7.22ms max=307.77ms count=17 
+01:47:53.246
+Android
+Debug
+ 10-25 19:47:46.266 6994 D/EGL_emulation: app_time_stats: avg=504.41ms min=495.61ms max=519.95ms count=3 
+01:47:53.247
+Android
+Debug
+ 10-25 19:47:47.266 6994 D/EGL_emulation: app_time_stats: avg=184.43ms min=15.33ms max=431.21ms count=5 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:48.514 6994 D/EGL_emulation: app_time_stats: avg=119.39ms min=18.93ms max=298.56ms count=9 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:49.555 6994 D/EGL_emulation: app_time_stats: avg=94.80ms min=16.75ms max=196.25ms count=10 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:50.730 6994 D/EGL_emulation: app_time_stats: avg=234.79ms min=40.91ms max=546.07ms count=5 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:51.747 6994 D/EGL_emulation: app_time_stats: avg=508.38ms min=488.43ms max=528.33ms count=2 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:52.445 6994 D/InsetsController: hide(ime(), fromIme=false) 
+01:48:13.202
+Android
+Log
+ 10-25 19:47:52.446 6994 I/ImeTracker: com.aistudio.thanatox.psychm:f2b87c9c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_BY_INSETS_API fromUser false 
+01:48:13.202
+Android
+Log
+ 10-25 19:47:52.448 6994 I/ImeTracker: com.aistudio.thanatox.psychm:a1063ff2: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_REQUEST_HIDE_WITH_CONTROL fromUser false 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:52.480 6994 D/InsetsController: hide(ime(), fromIme=true) 
+01:48:13.202
+Android
+Log
+ 10-25 19:47:52.480 6994 I/ImeTracker: com.aistudio.thanatox.psychm:a1063ff2: onCancelled at PHASE_CLIENT_APPLY_ANIMATION 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:52.749 6994 D/EGL_emulation: app_time_stats: avg=101.32ms min=13.90ms max=517.78ms count=9 
+01:48:13.202
+Android
+Log
+ 10-25 19:47:52.802 6994 I/ImeTracker: com.aistudio.thanatox.psychm:ecb6fd20: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+com.aistudio.thanatox.psychm:f2b87c9c: onHidden 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:53.787 6994 D/EGL_emulation: app_time_stats: avg=199.16ms min=14.72ms max=511.42ms count=5 
+01:48:13.202
+Android
+Debug
+ 10-25 19:47:54.480 6994 D/InsetsController: hide(ime(), fromIme=false) 
+01:48:13.202
+Android
+Log
+ 10-25 19:47:54.480 6994 I/ImeTracker: com.aistudio.thanatox.psychm:c6d0d0fe: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_BY_INSETS_API fromUser false
+com.aistudio.thanatox.psychm:c6d0d0fe: onCancelled at PHASE_CLIENT_APPLY_ANIMATION 
+01:48:13.202
+Android
+Warning
+ 10-25 19:48:03.115 6994 W/FrameTracker: Missed SF frame:UNKNOWN: 66, 36750, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed App frame:UNKNOWN: 328, 36786, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed App frame:UNKNOWN: 74, 36808, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 74, 36808, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 66, 36865, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 66, 36886, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm> 
+01:48:13.203
+Android
+Warning
+ 10-25 19:48:03.116 6994 W/FrameTracker: Missed SF frame:UNKNOWN: 66, 36901, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 66, 36945, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 66, 36960, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed App frame:UNKNOWN: 74, 36990, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 74, 36990, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm> 
+01:48:13.203
+Android
+Debug
+ 10-25 19:48:03.116 6994 V/PerfettoTrigger: Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81 
+01:48:13.203
+Android
+Debug
+ 10-25 19:48:04.287 6994 D/EGL_emulation: app_time_stats: avg=1492.87ms min=12.90ms max=9757.60ms count=7 
+01:48:13.203
+Android
+Debug
+ 10-25 19:48:09.167 6994 D/EGL_emulation: app_time_stats: avg=145.14ms min=3.00ms max=3862.94ms count=30 
+01:48:13.203
+Android
+Warning
+ 10-25 19:48:09.277 6994 W/WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+Set 'android:enableOnBackInvokedCallback="true"' in the application manifest. 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:11.661 6994 D/EGL_emulation: app_time_stats: avg=50.83ms min=1.47ms max=1542.06ms count=39 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:14.603 6994 D/EGL_emulation: app_time_stats: avg=76.03ms min=1.77ms max=1987.87ms count=32 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:16.436 6994 D/EGL_emulation: app_time_stats: avg=244.18ms min=12.74ms max=1535.36ms count=7 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:17.448 6994 D/EGL_emulation: app_time_stats: avg=16.13ms min=1.55ms max=107.98ms count=35 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:18.460 6994 D/EGL_emulation: app_time_stats: avg=15.74ms min=1.61ms max=34.58ms count=30 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:19.488 6994 D/EGL_emulation: app_time_stats: avg=13.36ms min=3.26ms max=24.14ms count=38 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:20.506 6994 D/EGL_emulation: app_time_stats: avg=11.84ms min=1.33ms max=32.26ms count=40 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:21.532 6994 D/EGL_emulation: app_time_stats: avg=11.85ms min=1.66ms max=18.20ms count=40 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:22.541 6994 D/EGL_emulation: app_time_stats: avg=13.07ms min=2.31ms max=26.28ms count=38 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:25.355 6994 D/InsetsController: show(ime(), fromIme=false) 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:25.356 6994 I/ImeTracker: com.aistudio.thanatox.psychm:9726ffc4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT_BY_INSETS_API fromUser false 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:25.356 6994 D/InputMethodManager: showSoftInput() view=androidx.compose.ui.platform.AndroidComposeView{b836cff VFED..... .F....ID 0,0-1080,2400 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT_BY_INSETS_API 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:25.362 6994 I/ImeTracker: com.aistudio.thanatox.psychm:b0a49cc7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:25.363 6994 D/InputMethodManager: showSoftInput() view=androidx.compose.ui.platform.AndroidComposeView{b836cff VFED..... .F....ID 0,0-1080,2400 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:25.363 6994 D/EGL_emulation: app_time_stats: avg=68.91ms min=1.26ms max=1962.02ms count=34 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:25.551 6994 D/InsetsController: show(ime(), fromIme=true) 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:25.909 6994 I/ImeTracker: com.aistudio.thanatox.psychm:b0a49cc7: onShown 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:26.428 6994 D/EGL_emulation: app_time_stats: avg=38.89ms min=6.73ms max=472.13ms count=20 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:27.190 6994 D/InsetsController: hide(ime(), fromIme=false) 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:27.190 6994 I/ImeTracker: com.aistudio.thanatox.psychm:e6bf6bcd: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_BY_INSETS_API fromUser false
+com.aistudio.thanatox.psychm:202f9a75: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_REQUEST_HIDE_WITH_CONTROL fromUser false 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:27.271 6994 I/thanatox.psychm: Background concurrent mark compact GC freed 7425KB AllocSpace bytes, 2(40KB) LOS objects, 49% free, 7521KB/14MB, paused 3.420ms,2.100ms total 127.303ms 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:27.363 6994 W/RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:27.421 6994 D/InsetsController: hide(ime(), fromIme=true) 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:27.424 6994 I/ImeTracker: com.aistudio.thanatox.psychm:202f9a75: onCancelled at PHASE_CLIENT_APPLY_ANIMATION 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:27.434 6994 D/TrafficStats: tagSocket(116) with statsTag=0xffffffff, statsUid=-1 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:27.453 6994 D/EGL_emulation: app_time_stats: avg=98.33ms min=16.51ms max=482.92ms count=9 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:27.537 6994 I/ImeTracker: com.aistudio.thanatox.psychm:5db376b8: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false 
+01:48:33.232
+Android
+Log
+ 10-25 19:48:27.538 6994 I/ImeTracker: com.aistudio.thanatox.psychm:e6bf6bcd: onHidden 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:27.620 6994 W/com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider: Failed to exchange debug token (8693462c-3dcd-462b-8c12-cd97f97ae232). If you haven't registered it, you can do so in the Firebase Console: https://console.firebase.google.com/project/gen-lang-client-0691497083/appcheck/apps?selectedAppId=1:24844740445:android:744da88880e06db502aab4 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:27.622 6994 W/GenerativeModel: Error obtaining AppCheck token
+com.google.firebase.FirebaseException: Error returned from API. code: 403 body: Firebase App Check API has not been used in project 24844740445 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firebaseappcheck.googleapis.com/overview?project=24844740445 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck.lambda$getToken$1$com-google-firebase-appcheck-internal-DefaultFirebaseAppCheck(DefaultFirebaseAppCheck.java:217)
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck$$ExternalSyntheticLambda2.then(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zze.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.firebase.FirebaseException: Error returned from API. code: 403 body: Firebase App Check API has not been used in project 24844740445 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firebaseappcheck.googleapis.com/overview?project=24844740445 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+at com.google.firebase.appcheck.internal.NetworkClient.makeNetworkRequest(NetworkClient.java:204)
+at com.google.firebase.appcheck.internal.NetworkClient.exchangeAttestationForAppCheckToken(NetworkClient.java:135)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider.lambda$getToken$1$com-google-firebase-appcheck-debug-internal-DebugAppCheckProvider(DebugAppCheckProvider.java:140)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider$$ExternalSyntheticLambda4.call(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zzx.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+... 5 more 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:27.623 6994 W/GenerativeModel: Error getting Auth token 
+com.google.firebase.internal.api.FirebaseNoSignedInUserException: Please sign in before trying to get a token.
+at com.google.android.gms.internal.firebase-auth-api.zzaew.zza(com.google.firebase:firebase-auth@@24.2.0:27)
+at com.google.firebase.auth.FirebaseAuth.zza(com.google.firebase:firebase-auth@@24.2.0:26)
+at com.google.firebase.auth.FirebaseAuth.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:23)
+at com.google.firebase.auth.zzad.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:2)
+at com.google.firebase.ai.common.AppCheckHeaderProvider.generateHeaders(AppCheckHeaderProvider.kt:62)
+at com.google.firebase.ai.common.AppCheckHeaderProvider$generateHeaders$1.invokeSuspend(Unknown Source:14)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704) 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:27.766 6994 D/TrafficStats: tagSocket(122) with statsTag=0xffffffff, statsUid=-1 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.028 6994 W/com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider: Failed to exchange debug token (8693462c-3dcd-462b-8c12-cd97f97ae232). If you haven't registered it, you can do so in the Firebase Console: https://console.firebase.google.com/project/gen-lang-client-0691497083/appcheck/apps?selectedAppId=1:24844740445:android:744da88880e06db502aab4 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.068 6994 W/GenerativeModel: Error obtaining AppCheck token
+com.google.firebase.FirebaseException: Too many attempts.
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck.lambda$getToken$1$com-google-firebase-appcheck-internal-DefaultFirebaseAppCheck(DefaultFirebaseAppCheck.java:217)
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck$$ExternalSyntheticLambda2.then(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zze.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.firebase.FirebaseException: Too many attempts.
+at com.google.firebase.appcheck.internal.NetworkClient.exchangeAttestationForAppCheckToken(NetworkClient.java:131)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider.lambda$getToken$1$com-google-firebase-appcheck-debug-internal-DebugAppCheckProvider(DebugAppCheckProvider.java:140)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider$$ExternalSyntheticLambda4.call(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zzx.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+... 5 more 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.071 6994 W/GenerativeModel: Error getting Auth token 
+com.google.firebase.internal.api.FirebaseNoSignedInUserException: Please sign in before trying to get a token.
+at com.google.android.gms.internal.firebase-auth-api.zzaew.zza(com.google.firebase:firebase-auth@@24.2.0:27)
+at com.google.firebase.auth.FirebaseAuth.zza(com.google.firebase:firebase-auth@@24.2.0:26)
+at com.google.firebase.auth.FirebaseAuth.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:23)
+at com.google.firebase.auth.zzad.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:2)
+at com.google.firebase.ai.common.AppCheckHeaderProvider.generateHeaders(AppCheckHeaderProvider.kt:62)
+at com.google.firebase.ai.common.AppCheckHeaderProvider$generateHeaders$1.invokeSuspend(Unknown Source:14)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704) 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.164 6994 W/com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider: Failed to exchange debug token (8693462c-3dcd-462b-8c12-cd97f97ae232). If you haven't registered it, you can do so in the Firebase Console: https://console.firebase.google.com/project/gen-lang-client-0691497083/appcheck/apps?selectedAppId=1:24844740445:android:744da88880e06db502aab4 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.180 6994 W/GenerativeModel: Error obtaining AppCheck token
+com.google.firebase.FirebaseException: Too many attempts.
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck.lambda$getToken$1$com-google-firebase-appcheck-internal-DefaultFirebaseAppCheck(DefaultFirebaseAppCheck.java:217)
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck$$ExternalSyntheticLambda2.then(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zze.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.firebase.FirebaseException: Too many attempts.
+at com.google.firebase.appcheck.internal.NetworkClient.exchangeAttestationForAppCheckToken(NetworkClient.java:131)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider.lambda$getToken$1$com-google-firebase-appcheck-debug-internal-DebugAppCheckProvider(DebugAppCheckProvider.java:140)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider$$ExternalSyntheticLambda4.call(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zzx.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+... 5 more
+Error getting Auth token 
+com.google.firebase.internal.api.FirebaseNoSignedInUserException: Please sign in before trying to get a token.
+at com.google.android.gms.internal.firebase-auth-api.zzaew.zza(com.google.firebase:firebase-auth@@24.2.0:27)
+at com.google.firebase.auth.FirebaseAuth.zza(com.google.firebase:firebase-auth@@24.2.0:26)
+at com.google.firebase.auth.FirebaseAuth.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:23)
+at com.google.firebase.auth.zzad.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:2)
+at com.google.firebase.ai.common.AppCheckHeaderProvider.generateHeaders(AppCheckHeaderProvider.kt:62)
+at com.google.firebase.ai.common.AppCheckHeaderProvider$generateHeaders$1.invokeSuspend(Unknown Source:14)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704) 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.259 6994 W/com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider: Failed to exchange debug token (8693462c-3dcd-462b-8c12-cd97f97ae232). If you haven't registered it, you can do so in the Firebase Console: https://console.firebase.google.com/project/gen-lang-client-0691497083/appcheck/apps?selectedAppId=1:24844740445:android:744da88880e06db502aab4 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.293 6994 W/GenerativeModel: Error obtaining AppCheck token
+com.google.firebase.FirebaseException: Too many attempts.
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck.lambda$getToken$1$com-google-firebase-appcheck-internal-DefaultFirebaseAppCheck(DefaultFirebaseAppCheck.java:217)
+at com.google.firebase.appcheck.internal.DefaultFirebaseAppCheck$$ExternalSyntheticLambda2.then(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zze.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.firebase.FirebaseException: Too many attempts.
+at com.google.firebase.appcheck.internal.NetworkClient.exchangeAttestationForAppCheckToken(NetworkClient.java:131)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider.lambda$getToken$1$com-google-firebase-appcheck-debug-internal-DebugAppCheckProvider(DebugAppCheckProvider.java:140)
+at com.google.firebase.appcheck.debug.internal.DebugAppCheckProvider$$ExternalSyntheticLambda4.call(D8$$SyntheticClass:0)
+at com.google.android.gms.tasks.zzx.run(com.google.android.gms:play-services-tasks@@18.4.0:1)
+... 5 more 
+01:48:33.232
+Android
+Warning
+ 10-25 19:48:28.294 6994 W/GenerativeModel: Error getting Auth token 
+com.google.firebase.internal.api.FirebaseNoSignedInUserException: Please sign in before trying to get a token.
+at com.google.android.gms.internal.firebase-auth-api.zzaew.zza(com.google.firebase:firebase-auth@@24.2.0:27)
+at com.google.firebase.auth.FirebaseAuth.zza(com.google.firebase:firebase-auth@@24.2.0:26)
+at com.google.firebase.auth.FirebaseAuth.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:23)
+at com.google.firebase.auth.zzad.getAccessToken(com.google.firebase:firebase-auth@@24.2.0:2)
+at com.google.firebase.ai.common.AppCheckHeaderProvider.generateHeaders(AppCheckHeaderProvider.kt:62)
+at com.google.firebase.ai.common.AppCheckHeaderProvider$generateHeaders$1.invokeSuspend(Unknown Source:14)
+at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704) 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:28.378 6994 D/TrafficStats: tagSocket(126) with statsTag=0xffffffff, statsUid=-1 
+01:48:33.232
+Android
+Debug
+ 10-25 19:48:28.473 6994 D/EGL_emulation: app_time_stats: avg=11.56ms min=1.34ms max=31.07ms count=39 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:29.510 6994 D/EGL_emulation: app_time_stats: avg=12.43ms min=1.02ms max=25.46ms count=37 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:30.522 6994 D/EGL_emulation: app_time_stats: avg=12.35ms min=1.52ms max=22.86ms count=33 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:31.525 6994 D/EGL_emulation: app_time_stats: avg=10.38ms min=1.18ms max=18.47ms count=41 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:32.541 6994 D/EGL_emulation: app_time_stats: avg=8.85ms min=1.15ms max=19.51ms count=44 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:33.553 6994 D/EGL_emulation: app_time_stats: avg=10.87ms min=1.30ms max=19.89ms count=40 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:34.578 6994 D/EGL_emulation: app_time_stats: avg=10.09ms min=1.22ms max=19.95ms count=42 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:35.583 6994 D/EGL_emulation: app_time_stats: avg=11.84ms min=1.59ms max=30.35ms count=36 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:36.595 6994 D/EGL_emulation: app_time_stats: avg=11.45ms min=2.26ms max=33.64ms count=32 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:37.602 6994 D/EGL_emulation: app_time_stats: avg=10.75ms min=0.99ms max=24.49ms count=40 
+01:48:53.218
+Android
+Warning
+ 10-25 19:48:37.891 6994 W/FrameTracker: Missed App frame:UNKNOWN: 74, 43901, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 74, 43901, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm> 
+01:48:53.218
+Android
+Warning
+ 10-25 19:48:37.892 6994 W/FrameTracker: Missed SF frame:UNKNOWN: 66, 43944, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 66, 44059, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm>
+Missed SF frame:UNKNOWN: 66, 44117, 0, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@com.aistudio.thanatox.psychm> 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:37.912 6994 V/PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-81 - not enough time since last trigger 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:38.613 6994 D/EGL_emulation: app_time_stats: avg=12.22ms min=1.85ms max=22.15ms count=33 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:39.624 6994 D/EGL_emulation: app_time_stats: avg=10.92ms min=1.84ms max=29.85ms count=36 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:40.638 6994 D/EGL_emulation: app_time_stats: avg=8.93ms min=0.98ms max=13.52ms count=44 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:41.654 6994 D/EGL_emulation: app_time_stats: avg=9.96ms min=1.08ms max=18.60ms count=40 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:42.688 6994 D/EGL_emulation: app_time_stats: avg=11.60ms min=1.91ms max=31.55ms count=34 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:43.695 6994 D/EGL_emulation: app_time_stats: avg=9.88ms min=1.02ms max=19.56ms count=39 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:44.700 6994 D/EGL_emulation: app_time_stats: avg=9.35ms min=1.15ms max=22.29ms count=42 
+01:48:53.218
+Android
+Debug
+ 10-25 19:48:45.704 6994 D/EGL_emulation: app_time_stats: avg=10.29ms min=1.02ms max=20.86ms count=41 

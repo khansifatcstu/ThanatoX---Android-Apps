@@ -1,0 +1,457 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- 1. Deep Bioluminescent Emerald-Teal Background -->
+    <path android:pathData="M0,0h512v512h-512z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="256"
+                android:centerY="210"
+                android:gradientRadius="320"
+                android:type="radial">
+                <item android:color="#FF115E59" android:offset="0.0" />
+                <item android:color="#FF082F32" android:offset="0.55" />
+                <item android:color="#FF041518" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Soft Aura Halo Behind Anime Doctor -->
+    <path android:pathData="M256,200m-210,0a210,210 0,1 1,420 0a210,210 0,1 1,-420 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="256"
+                android:centerY="200"
+                android:gradientRadius="210"
+                android:type="radial">
+                <item android:color="#732DD4BF" android:offset="0.0" />
+                <item android:color="#1F0D9488" android:offset="0.65" />
+                <item android:color="#00041518" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ambient Sparkle Orbs -->
+    <path
+        android:fillColor="#385EEAD4"
+        android:pathData="M92,110m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+    <path
+        android:fillColor="#2EFBBF24"
+        android:pathData="M426,96m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    <path
+        android:fillColor="#402DD4BF"
+        android:pathData="M436,276m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <path
+        android:fillColor="#335EEAD4"
+        android:pathData="M76,296m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+
+    <!-- 2. Anime Back Hair Nape Silhouette -->
+    <path
+        android:fillColor="#FF06121C"
+        android:pathData="M148,185 C135,235 142,285 162,315 L350,315 C370,285 377,235 364,185 Z" />
+
+    <!-- 3. Neck & Anime Cel-Shaded Chin Shadow -->
+    <path
+        android:pathData="M214,274 L298,274 L308,358 L204,358 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.5">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="256"
+                android:endY="358"
+                android:startX="256"
+                android:startY="274"
+                android:type="linear">
+                <item android:color="#FFFFE4D0" android:offset="0.0" />
+                <item android:color="#FFF7CBB0" android:offset="0.65" />
+                <item android:color="#FFE8B092" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#B8D29578"
+        android:pathData="M215,274 L297,274 C294,306 276,320 256,322 C236,320 218,306 215,274 Z" />
+
+    <!-- 4. Dark Emerald Dress Shirt & Silk Tie Under White Medical Apron -->
+    <path
+        android:fillColor="#FF0B3B3C"
+        android:pathData="M168,322 L344,322 L372,512 L140,512 Z" />
+    <path
+        android:fillColor="#FF115E59"
+        android:pathData="M206,304 L256,362 L224,380 L186,326 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.5" />
+    <path
+        android:fillColor="#FF115E59"
+        android:pathData="M306,304 L256,362 L288,380 L326,326 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.5" />
+
+    <!-- Silk Tie with Gold & Aqua Accents -->
+    <path
+        android:fillColor="#FF0D9488"
+        android:pathData="M242,352 L270,352 L276,378 L256,392 L236,378 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.2" />
+    <path
+        android:fillColor="#FF0F766E"
+        android:pathData="M244,384 L268,384 L280,492 L256,512 L232,492 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.2" />
+    <path
+        android:fillColor="#FFFBBF24"
+        android:pathData="M240,418 L272,402 L274,416 L238,432 Z" />
+    <path
+        android:fillColor="#D95EEAD4"
+        android:pathData="M236,456 L276,440 L278,452 L235,468 Z" />
+
+    <!-- 5. Crisp White Medical Apron (Doctor Lab Coat) -->
+    <!-- Left Apron Coat -->
+    <path
+        android:pathData="M202,302 L102,346 C72,360 56,392 48,512 L236,512 L228,388 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="236"
+                android:endY="512"
+                android:startX="80"
+                android:startY="302"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFF1F5F9" android:offset="0.7" />
+                <item android:color="#FFE2E8F0" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Left Coat Cel Shadow -->
+    <path
+        android:fillColor="#FFD8E2EC"
+        android:pathData="M102,346 L146,356 L126,512 L48,512 C56,392 72,360 102,346 Z" />
+
+    <!-- Right Apron Coat -->
+    <path
+        android:pathData="M310,302 L410,346 C440,360 456,392 464,512 L276,512 L284,388 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="464"
+                android:endY="512"
+                android:startX="280"
+                android:startY="302"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFF1F5F9" android:offset="0.7" />
+                <item android:color="#FFE2E8F0" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Right Coat Cel Shadow -->
+    <path
+        android:fillColor="#FFD8E2EC"
+        android:pathData="M410,346 L366,356 L386,512 L464,512 C456,392 440,360 410,346 Z" />
+
+    <!-- White Apron Notched Lapels (Collar) -->
+    <path
+        android:fillColor="#FFF8FAFC"
+        android:pathData="M204,298 L160,350 L190,366 L170,390 L236,484 L228,380 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.8" />
+    <path
+        android:fillColor="#FFF8FAFC"
+        android:pathData="M308,298 L352,350 L322,366 L342,390 L276,484 L284,380 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.8" />
+
+    <!-- Apron Breast Pocket + Gold Pen + Medical Emblem -->
+    <path
+        android:fillColor="#FFF1F5F9"
+        android:pathData="M322,424 L380,424 C384,424 388,428 388,432 L388,484 C388,488 384,492 380,492 L322,492 C318,492 314,488 314,484 L314,432 C314,428 318,424 322,424 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.2" />
+    <path
+        android:pathData="M314,442 L388,442"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="2.8" />
+    <path
+        android:fillColor="#FFFBBF24"
+        android:pathData="M329,408 L336,408 L336,442 L329,442 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="2" />
+    <path
+        android:fillColor="#FF0D9488"
+        android:pathData="M346,454 L356,454 L356,480 L346,480 Z" />
+    <path
+        android:fillColor="#FF0D9488"
+        android:pathData="M338,462 L364,462 L364,472 L338,472 Z" />
+
+    <!-- 6. Medical Stethoscope Draped Over White Apron -->
+    <path
+        android:pathData="M198,308 C144,348 134,402 152,454"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineCap="round"
+        android:strokeWidth="12" />
+    <path
+        android:pathData="M198,308 C144,348 134,402 152,454"
+        android:strokeColor="#FF0D9488"
+        android:strokeLineCap="round"
+        android:strokeWidth="7" />
+    <path
+        android:pathData="M314,308 C366,346 372,394 348,426"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineCap="round"
+        android:strokeWidth="12" />
+    <path
+        android:pathData="M314,308 C366,346 372,394 348,426"
+        android:strokeColor="#FF0D9488"
+        android:strokeLineCap="round"
+        android:strokeWidth="7" />
+    <path
+        android:pathData="M326,442 C336,418 360,418 368,442"
+        android:strokeColor="#FFCBD5E1"
+        android:strokeLineCap="round"
+        android:strokeWidth="5" />
+    <!-- Stethoscope Golden Chestpiece -->
+    <path
+        android:fillColor="#FFF59E0B"
+        android:pathData="M154,458m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.8" />
+    <path
+        android:fillColor="#FFF8FAFC"
+        android:pathData="M154,458m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="2.5" />
+    <path
+        android:fillColor="#FF0D9488"
+        android:pathData="M154,458m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- 7. Anime Ears & Sculpted V-Line Face -->
+    <path
+        android:fillColor="#FFF7CBB0"
+        android:pathData="M151,208a15,26 0,1 0,30 0a15,26 0,1 0,-30 0"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.5" />
+    <path
+        android:fillColor="#FFF7CBB0"
+        android:pathData="M331,208a15,26 0,1 0,30 0a15,26 0,1 0,-30 0"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="3.5" />
+
+    <!-- Anime V-Line Face Shape -->
+    <path
+        android:pathData="M168,140 C166,198 172,242 198,274 C218,296 240,308 256,310 C272,308 294,296 314,274 C340,242 346,198 344,140 Z"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="256"
+                android:endY="310"
+                android:startX="256"
+                android:startY="140"
+                android:type="linear">
+                <item android:color="#FFFFE6D4" android:offset="0.0" />
+                <item android:color="#FFF9CFB6" android:offset="0.68" />
+                <item android:color="#FFEBB598" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Soft Anime Cheek Blush -->
+    <path
+        android:fillColor="#28F43F5E"
+        android:pathData="M180,222a18,9 0,1 0,36 0a18,9 0,1 0,-36 0" />
+    <path
+        android:fillColor="#28F43F5E"
+        android:pathData="M296,222a18,9 0,1 0,36 0a18,9 0,1 0,-36 0" />
+
+    <!-- 8. Expressive Detailed Anime Eyes -->
+    <!-- Left Eye -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M188,194 C196,179 228,179 236,194 C230,206 196,206 188,194 Z" />
+    <path
+        android:pathData="M213,193m-12.5,0a12.5,12.5 0,1 1,25 0a12.5,12.5 0,1 1,-25 0"
+        android:strokeColor="#FF042F2E"
+        android:strokeWidth="2">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="213"
+                android:endY="206"
+                android:startX="213"
+                android:startY="180"
+                android:type="linear">
+                <item android:color="#FF064E3B" android:offset="0.0" />
+                <item android:color="#FF0D9488" android:offset="0.55" />
+                <item android:color="#FF5EEAD4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FF091520"
+        android:pathData="M213,193m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M208,188m-4.2,0a4.2,4.2 0,1 1,8.4 0a4.2,4.2 0,1 1,-8.4 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M218,197m-2.2,0a2.2,2.2 0,1 1,4.4 0a2.2,2.2 0,1 1,-4.4 0" />
+    <path
+        android:pathData="M185,195 C195,177 229,177 239,195"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineCap="round"
+        android:strokeWidth="4.8" />
+    <path
+        android:pathData="M186,168 C202,160 224,162 238,169"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineCap="round"
+        android:strokeWidth="4" />
+
+    <!-- Right Eye -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M276,194 C284,179 316,179 324,194 C318,206 284,206 276,194 Z" />
+    <path
+        android:pathData="M299,193m-12.5,0a12.5,12.5 0,1 1,25 0a12.5,12.5 0,1 1,-25 0"
+        android:strokeColor="#FF042F2E"
+        android:strokeWidth="2">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="299"
+                android:endY="206"
+                android:startX="299"
+                android:startY="180"
+                android:type="linear">
+                <item android:color="#FF064E3B" android:offset="0.0" />
+                <item android:color="#FF0D9488" android:offset="0.55" />
+                <item android:color="#FF5EEAD4" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FF091520"
+        android:pathData="M299,193m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M294,188m-4.2,0a4.2,4.2 0,1 1,8.4 0a4.2,4.2 0,1 1,-8.4 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M304,197m-2.2,0a2.2,2.2 0,1 1,4.4 0a2.2,2.2 0,1 1,-4.4 0" />
+    <path
+        android:pathData="M273,195 C283,177 317,177 327,195"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineCap="round"
+        android:strokeWidth="4.8" />
+    <path
+        android:pathData="M274,169 C288,162 310,160 326,168"
+        android:strokeColor="#FF0F172A"
+        android:strokeLineCap="round"
+        android:strokeWidth="4" />
+
+    <!-- 9. Sleek Anime Designer Glasses (Gold Frames & Lens Glint) -->
+    <path
+        android:fillColor="#1A5EEAD4"
+        android:pathData="M191,174 L233,174 C239,174 244,179 244,185 L244,201 C244,207 239,212 233,212 L191,212 C185,212 180,207 180,201 L180,185 C180,179 185,174 191,174 Z"
+        android:strokeColor="#FFFBBF24"
+        android:strokeWidth="3.2" />
+    <path
+        android:fillColor="#1A5EEAD4"
+        android:pathData="M279,174 L321,174 C327,174 332,179 332,185 L332,201 C332,207 327,212 321,212 L279,212 C273,212 268,207 268,201 L268,185 C268,179 273,174 279,174 Z"
+        android:strokeColor="#FFFBBF24"
+        android:strokeWidth="3.2" />
+    <path
+        android:pathData="M244,190 C250,185 262,185 268,190"
+        android:strokeColor="#FFFBBF24"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.2" />
+    <path
+        android:pathData="M166,188 L180,188"
+        android:strokeColor="#FFFBBF24"
+        android:strokeWidth="3" />
+    <path
+        android:pathData="M332,188 L346,188"
+        android:strokeColor="#FFFBBF24"
+        android:strokeWidth="3" />
+    <path
+        android:fillColor="#61FFFFFF"
+        android:pathData="M190,177 L200,177 L188,208 L182,208 Z" />
+    <path
+        android:fillColor="#61FFFFFF"
+        android:pathData="M278,177 L288,177 L276,208 L270,208 Z" />
+
+    <!-- 10. Delicate Anime Nose & Warm Reassuring Smile -->
+    <path
+        android:pathData="M255,210 L251,234 L258,238"
+        android:strokeColor="#FFB87A5C"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2.8" />
+    <path
+        android:pathData="M235,258 Q256,271 277,258"
+        android:strokeColor="#FF8C3B32"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.4" />
+
+    <!-- 11. Layered Stylish Anime Hair with Forehead Bangs & Bioluminescent Highlights -->
+    <path
+        android:pathData="M154,204 C142,155 156,102 194,72 C216,55 232,46 258,48 C288,44 316,56 336,78 C364,108 370,156 358,204 C354,174 346,154 338,142 L330,178 C324,154 316,138 308,128 L294,175 C286,148 278,132 268,122 L254,180 C246,150 238,132 228,124 L212,174 C204,150 196,136 186,128 L178,176 C170,156 162,172 154,204 Z"
+        android:strokeColor="#FF0A101D"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.6">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="358"
+                android:endY="204"
+                android:startX="154"
+                android:startY="48"
+                android:type="linear">
+                <item android:color="#FF0F293A" android:offset="0.0" />
+                <item android:color="#FF091926" android:offset="0.5" />
+                <item android:color="#FF050E17" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Anime Hair Crown Spikes -->
+    <path
+        android:fillColor="#FF0C2231"
+        android:pathData="M206,65 C192,45 208,34 234,50 Z"
+        android:strokeColor="#FF0A101D"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.2" />
+    <path
+        android:fillColor="#FF0C2231"
+        android:pathData="M248,48 C256,26 278,28 286,52 Z"
+        android:strokeColor="#FF0A101D"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.2" />
+    <path
+        android:fillColor="#FF0C2231"
+        android:pathData="M304,58 C326,42 342,50 326,70 Z"
+        android:strokeColor="#FF0A101D"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.2" />
+
+    <!-- Anime Hair Halo Highlight Arcs -->
+    <path
+        android:fillColor="#CC5EEAD4"
+        android:pathData="M188,108 Q216,96 232,110 L226,122 Q208,110 184,120 Z" />
+    <path
+        android:fillColor="#D999F6E4"
+        android:pathData="M242,102 Q266,94 286,106 L280,118 Q262,108 238,114 Z" />
+    <path
+        android:fillColor="#CC5EEAD4"
+        android:pathData="M298,110 Q316,106 330,118 L322,128 Q310,118 294,122 Z" />
+</vector>

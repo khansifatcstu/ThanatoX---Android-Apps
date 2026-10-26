@@ -1,0 +1,6 @@
+{
+  "name": "ThanatoX",
+  "description": "AI Psychiatrist & Mental Wellness Companion with Firebase Cloud Sync and APK Export",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

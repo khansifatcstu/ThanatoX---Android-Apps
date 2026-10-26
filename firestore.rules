@@ -1,0 +1,133 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global default-deny safety net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isValidUserProfile(data, userId) {
+      return data.userId is string && data.userId == userId && data.userId == request.auth.uid &&
+             data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 100 &&
+             data.databaseAlias is string && data.databaseAlias.size() >= 1 && data.databaseAlias.size() <= 100 &&
+             (!('semesterFocus' in data) || data.semesterFocus == null || (data.semesterFocus is string && data.semesterFocus.size() <= 200)) &&
+             (!('wellnessScore' in data) || data.wellnessScore == null || (data.wellnessScore is int && data.wellnessScore >= 0 && data.wellnessScore <= 100)) &&
+             data.createdAt is timestamp && data.createdAt <= request.time &&
+             (!('updatedAt' in data) || data.updatedAt == null || (data.updatedAt is timestamp && data.updatedAt <= request.time));
+    }
+
+    function isValidConsultationMessage(data, userId) {
+      return data.userId is string && data.userId == userId && data.userId == request.auth.uid &&
+             data.role is string && (data.role == 'user' || data.role == 'psychiatrist') &&
+             data.therapyMode is string && (data.therapyMode == 'CBT' || data.therapyMode == 'Crisis' || data.therapyMode == 'SemesterBurnout' || data.therapyMode == 'SleepAnxiety') &&
+             data.text is string && data.text.size() >= 1 && data.text.size() <= 5000 &&
+             (!('moodTag' in data) || data.moodTag == null || (data.moodTag is string && data.moodTag.size() <= 80)) &&
+             data.createdAt is timestamp && data.createdAt <= request.time;
+    }
+
+    function isValidMoodLog(data, userId) {
+      return data.userId is string && data.userId == userId && data.userId == request.auth.uid &&
+             data.moodScore is int && data.moodScore >= 1 && data.moodScore <= 10 &&
+             data.emotionLabel is string && data.emotionLabel.size() >= 1 && data.emotionLabel.size() <= 60 &&
+             data.sleepHours is int && data.sleepHours >= 0 && data.sleepHours <= 24 &&
+             data.stressLevel is int && data.stressLevel >= 1 && data.stressLevel <= 10 &&
+             data.journalNote is string && data.journalNote.size() >= 1 && data.journalNote.size() <= 2000 &&
+             (!('aiInsight' in data) || data.aiInsight == null || (data.aiInsight is string && data.aiInsight.size() <= 2000)) &&
+             data.createdAt is timestamp && data.createdAt <= request.time;
+    }
+
+    function isValidAssessment(data, userId) {
+      return data.userId is string && data.userId == userId && data.userId == request.auth.uid &&
+             data.assessmentType is string && (data.assessmentType == 'PHQ-9' || data.assessmentType == 'GAD-7' || data.assessmentType == 'Semester-Burnout') &&
+             data.totalScore is int && data.totalScore >= 0 && data.totalScore <= 100 &&
+             data.severityLabel is string && data.severityLabel.size() >= 1 && data.severityLabel.size() <= 100 &&
+             data.recommendation is string && data.recommendation.size() >= 1 && data.recommendation.size() <= 2000 &&
+             data.createdAt is timestamp && data.createdAt <= request.time;
+    }
+
+    match /users/{userId} {
+      allow get: if isOwner(userId) && isValidId(userId);
+      allow list: if isOwner(userId) && resource.data.userId == request.auth.uid;
+
+      allow create: if isOwner(userId) &&
+                       isValidId(userId) &&
+                       incoming().keys().hasAll(['userId', 'displayName', 'databaseAlias', 'createdAt']) &&
+                       incoming().keys().hasOnly(['userId', 'displayName', 'databaseAlias', 'semesterFocus', 'wellnessScore', 'createdAt', 'updatedAt']) &&
+                       isValidUserProfile(incoming(), userId);
+
+      allow update: if isOwner(userId) &&
+                       isValidId(userId) &&
+                       isValidUserProfile(incoming(), userId) &&
+                       incoming().userId == existing().userId &&
+                       incoming().createdAt == existing().createdAt &&
+                       incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'databaseAlias', 'semesterFocus', 'wellnessScore', 'updatedAt']);
+
+      allow delete: if isOwner(userId) && isValidId(userId);
+
+      match /consultations/{messageId} {
+        allow get: if isOwner(userId) && isValidId(userId) && isValidId(messageId);
+        allow list: if isOwner(userId) && resource.data.userId == request.auth.uid;
+
+        allow create: if isOwner(userId) &&
+                         isValidId(userId) &&
+                         isValidId(messageId) &&
+                         incoming().keys().hasAll(['userId', 'role', 'therapyMode', 'text', 'createdAt']) &&
+                         incoming().keys().hasOnly(['userId', 'role', 'therapyMode', 'text', 'moodTag', 'createdAt']) &&
+                         isValidConsultationMessage(incoming(), userId);
+
+        allow update: if false;
+        allow delete: if isOwner(userId) && isValidId(userId) && isValidId(messageId);
+      }
+
+      match /mood_logs/{logId} {
+        allow get: if isOwner(userId) && isValidId(userId) && isValidId(logId);
+        allow list: if isOwner(userId) && resource.data.userId == request.auth.uid;
+
+        allow create: if isOwner(userId) &&
+                         isValidId(userId) &&
+                         isValidId(logId) &&
+                         incoming().keys().hasAll(['userId', 'moodScore', 'emotionLabel', 'sleepHours', 'stressLevel', 'journalNote', 'createdAt']) &&
+                         incoming().keys().hasOnly(['userId', 'moodScore', 'emotionLabel', 'sleepHours', 'stressLevel', 'journalNote', 'aiInsight', 'createdAt']) &&
+                         isValidMoodLog(incoming(), userId);
+
+        allow update: if false;
+        allow delete: if isOwner(userId) && isValidId(userId) && isValidId(logId);
+      }
+
+      match /assessments/{assessmentId} {
+        allow get: if isOwner(userId) && isValidId(userId) && isValidId(assessmentId);
+        allow list: if isOwner(userId) && resource.data.userId == request.auth.uid;
+
+        allow create: if isOwner(userId) &&
+                         isValidId(userId) &&
+                         isValidId(assessmentId) &&
+                         incoming().keys().hasAll(['userId', 'assessmentType', 'totalScore', 'severityLabel', 'recommendation', 'createdAt']) &&
+                         incoming().keys().hasOnly(['userId', 'assessmentType', 'totalScore', 'severityLabel', 'recommendation', 'createdAt']) &&
+                         isValidAssessment(incoming(), userId);
+
+        allow update: if false;
+        allow delete: if isOwner(userId) && isValidId(userId) && isValidId(assessmentId);
+      }
+    }
+  }
+}
