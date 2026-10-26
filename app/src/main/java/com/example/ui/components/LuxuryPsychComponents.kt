@@ -851,12 +851,12 @@ fun ChatbotSanctuaryAmbientBackground(
 fun TestSanctuaryAmbientBackground(
   modifier: Modifier = Modifier
 ) {
-  val painter = rememberSrgbBitmapPainter(id = R.drawable.thanatox_test_bg, maxDimensionPx = 1080)
+  val painter = rememberSrgbBitmapPainter(id = R.drawable.thanatox_mindcare_bg, maxDimensionPx = 1080)
 
   Box(
     modifier = modifier
       .fillMaxSize()
-      .background(Color(0xFF050709))
+      .background(Color(0xFF040507))
       .testTag("test_sanctuary_ambient_background")
   ) {
     if (painter != null) {
